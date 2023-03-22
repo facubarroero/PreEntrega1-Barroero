@@ -29,16 +29,16 @@ function tasacion(){
         }
         switch(respuesta){
             case "a":
-                alert("Tu casa esta tasada en USD" + metrosCuadrados*1200)
+                alert("Tu casa esta tasada en aproximadamente USD " + metrosCuadrados*1200)
                 break
             case "b":
-                alert("Tu departamento esta tasado en USD" + metrosCuadrados*800)
+                alert("Tu departamento esta tasado en aproximadamente USD " + metrosCuadrados*800)
                 break
             case "c":
-                alert("Tu local esta tasado en USD" + metrosCuadrados*500)
+                alert("Tu local esta tasado en aproximadamente USD " + metrosCuadrados*500)
                 break
             case "d":
-                alert("Tu terreno esta tasado en USD" + metrosCuadrados*200)
+                alert("Tu terreno esta tasado en aproximadamente USD " + metrosCuadrados*200)
                 break  
             default:
                 console.error("La respuesta no es válida")
