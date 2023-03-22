@@ -1,5 +1,4 @@
 let continuar = true
-let inicio = confirm("Bienvenid@, ¿querés saber el precio de tu propiedad?")
 
 const mensajeInicio = 
     "¿Que tipo de propiedad desea tasar?: \n" +
@@ -10,6 +9,7 @@ const mensajeInicio =
 
 
 function consulta(){
+    let inicio = confirm("Bienvenid@, ¿querés saber el precio de tu propiedad?")
     while (inicio){
         tasacion()
         inicio = confirm("¿Querés tasar otra propiedad?")
@@ -46,4 +46,3 @@ function tasacion(){
     }
 
 }
-consulta()
